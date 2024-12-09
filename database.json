@@ -1,0 +1,236 @@
+{
+  "students": [
+    {
+      "id": "1",
+      "name": "Dinh Tran Duy Anh",
+      "email": "duyanh@gmail.com",
+      "classId": 2,
+      "password": "123456",
+      "role": "student"
+    },
+    {
+      "id": "2",
+      "name": "Nguyen Duc Anh",
+      "email": "ducanh@gmail.com",
+      "classId": 2,
+      "password": "123456",
+      "role": "student"
+    },
+    {
+      "id": "3",
+      "name": "Luu Ha Chi",
+      "email": "hachi@gmail.com",
+      "classId": 2,
+      "password": "123456",
+      "role": "student"
+    },
+    {
+      "id": "4",
+      "name": "Nguyen Trong Nam",
+      "email": "trongnam@gmail.com",
+      "classId": 1,
+      "password": "123456",
+      "role": "student"
+    },
+    {
+      "id": "5",
+      "name": "Tran Ngoc Huyen Trang",
+      "email": "huyentrang@gmail.com",
+      "classId": 1,
+      "password": "123456",
+      "role": "student"
+    },
+    {
+      "id": "6",
+      "name": "Do Tung Duong",
+      "email": "tungduong@gmail.com",
+      "classId": 1,
+      "password": "123456",
+      "role": "student"
+    }
+  ],
+  "teachers": [
+    {
+      "id": "1",
+      "name": "Ta Dinh Tien",
+      "email": "tientd@gmail.com",
+      "password": "123456",
+      "subject": "FER202",
+      "role": "teacher"
+    },
+    {
+      "id": "2",
+      "name": "Nguyen Minh Tuan",
+      "email": "tuanmn@gmail.com",
+      "password": "123456",
+      "subject": "JPD301",
+      "role": "teacher"
+    },
+    {
+      "id": "3",
+      "name": "Nguyen Trung Kien",
+      "email": "kiennt@gmail.com",
+      "password": "123456",
+      "subject": "PRJ301",
+      "role": "teacher"
+    }
+  ],
+  "classes": [
+    {
+      "id": "1",
+      "name": "SE1872",
+      "teacherIds": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "2",
+      "name": "SE1873",
+      "teacherIds": [
+        2,
+        3
+      ]
+    }
+  ],
+  "feedbacks": [
+    {
+      "id": "bd29",
+      "classId": 2,
+      "studentId": "1",
+      "teacherId": "2",
+      "criteriaId": "1",
+      "comment": "Rất Thích"
+    },
+    {
+      "id": "1e22",
+      "classId": 2,
+      "studentId": "1",
+      "teacherId": "2",
+      "criteriaId": "2",
+      "comment": "Tệ"
+    },
+    {
+      "id": "4e42",
+      "classId": 2,
+      "studentId": "1",
+      "teacherId": "2",
+      "criteriaId": "3",
+      "comment": "Rất Thích"
+    },
+    {
+      "id": "4eb5",
+      "classId": 2,
+      "studentId": "1",
+      "teacherId": "2",
+      "criteriaId": "4",
+      "comment": "Rất Thích"
+    },
+    {
+      "id": "2ff5",
+      "classId": 2,
+      "studentId": "1",
+      "teacherId": "2",
+      "criteriaId": "6",
+      "comment": "Thích"
+    },
+    {
+      "id": "fbad",
+      "classId": 2,
+      "studentId": "1",
+      "teacherId": "2",
+      "criteriaId": "5",
+      "comment": "Thích"
+    },
+    {
+      "id": "2158",
+      "classId": 2,
+      "studentId": "1",
+      "teacherId": "2",
+      "criteriaId": null,
+      "comment": ""
+    },
+    {
+      "id": "4eab",
+      "classId": 2,
+      "studentId": "3",
+      "teacherId": "2",
+      "criteriaId": "1",
+      "comment": "Rất Thích"
+    },
+    {
+      "id": "3e88",
+      "classId": 2,
+      "studentId": "3",
+      "teacherId": "2",
+      "criteriaId": "2",
+      "comment": "Rất Thích"
+    },
+    {
+      "id": "f642",
+      "classId": 2,
+      "studentId": "3",
+      "teacherId": "2",
+      "criteriaId": "3",
+      "comment": "Rất Thích"
+    },
+    {
+      "id": "ce66",
+      "classId": 2,
+      "studentId": "3",
+      "teacherId": "2",
+      "criteriaId": "4",
+      "comment": "Rất Thích"
+    },
+    {
+      "id": "8bbf",
+      "classId": 2,
+      "studentId": "3",
+      "teacherId": "2",
+      "criteriaId": "5",
+      "comment": "Thích"
+    },
+    {
+      "id": "830a",
+      "classId": 2,
+      "studentId": "3",
+      "teacherId": "2",
+      "criteriaId": "6",
+      "comment": "Thích"
+    },
+    {
+      "id": "dbe6",
+      "classId": 2,
+      "studentId": "3",
+      "teacherId": "2",
+      "criteriaId": null,
+      "comment": ""
+    }
+  ],
+  "criteria": [
+    {
+      "id": "1",
+      "criteriaName": "Phương pháp giảng dạy"
+    },
+    {
+      "id": "2",
+      "criteriaName": "Thời gian phản hồi"
+    },
+    {
+      "id": "3",
+      "criteriaName": "Độ chi tiết và hữu ích của phản hồi"
+    },
+    {
+      "id": "4",
+      "criteriaName": "Sự rõ ràng trong việc truyền đạt kiến thức"
+    },
+    {
+      "id": "5",
+      "criteriaName": "Khả năng quản lý lớp học và xử lý các vấn đề phát sinh"
+    },
+    {
+      "id": "6",
+      "criteriaName": "Sử dụng công cụ và tài liệu hỗ trợ giảng dạy hiệu quả"
+    }
+  ]
+}
